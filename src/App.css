@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-link {
+  margin-right: 15px; 
+}
+
+.nav-link:last-child {
+  margin-right: 0; 
+}
+.card-custom {
+  border: 2px solid #1b6604; /* Couleur et largeur du cadre */
+  border-radius: 10px; /* Rayon des coins arrondis */
+  
+}
